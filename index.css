@@ -1,0 +1,37 @@
+#test{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 50vh;
+}
+
+#heading{
+    color:white;
+}
+
+#timer{
+    font-size: 1.4em;
+}
+
+#timer-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color:azure;
+    margin:5px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#start{
+    margin:3px;
+}
+#stop{
+    margin:3px;
+}
+
+#reset{
+    margin:3px;
+}
